@@ -1,0 +1,60 @@
+#nav{
+    font-family: 'Odibee Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color: red; */
+   animation: nav-load 300ms ease-in-out;
+}
+
+.navList {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;    
+/* background-color: gold; */
+list-style: none;
+height: 90vh;
+}
+
+
+#img1{
+    margin-bottom: 1rem;
+}
+#img2{
+    margin-top: 1rem;
+}
+#img1:hover img{
+    content: url("/icons/account_balanceY.svg");
+}
+
+#img2:hover img{
+    content: url("/icons/mail_outlineY.svg");
+}
+.navList  a img{
+width: 1.7rem;
+cursor: pointer;
+}
+
+.tabs{
+color: #b9ccda;
+text-decoration: none;
+transform: rotate(90deg);
+
+letter-spacing: 0.2rem;
+transition: all 300ms ease-in-out;
+}
+
+.tabs:hover{
+    transform: rotate(0);
+    color: #fff200;
+}
+
+@keyframes nav-load{
+    0%{
+        transform: translateY(30%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

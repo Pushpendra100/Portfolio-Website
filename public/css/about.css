@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#303940;
+}
+#about{
+    display: flex;
+    
+}
+.long{
+    font-family: 'Viaoda Libre', cursive;
+    -webkit-text-stroke: 2px rgb(34, 129, 218);
+    color: transparent;
+    /* font-weight: bolder; */
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    padding: 3rem 3rem;
+    text-align: right;
+    font-size: 6rem;
+    line-height: 11rem;
+
+}
+.navBarComponent{
+    position: sticky;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* background-color: blue; */
+    height: 100vh;
+    width: 8rem;
+}

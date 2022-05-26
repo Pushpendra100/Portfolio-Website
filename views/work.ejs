@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Contrail+One&family=Lato&family=McLaren&family=Montserrat:ital@1&family=Odibee+Sans&family=Orbitron:wght@400;900&family=Play&family=Playball&family=Poppins&family=Quintessential&family=Satisfy&family=Viaoda+Libre&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class="work">
+
+        <div class="leftBar">
+            <div class="lbContainer">
+                <div id="line1" class="line "></div>
+                <div id="line2" class="line"></div>
+                <div id="line3" class="line"></div>
+            </div>
+        </div>
+    <div class="midContainer">
+
+        <div class="project " id="projectOne">
+            <div class="firstPart"><a href=""><img src="images/keeperApp.png" alt=""></a></div>
+            <div class="secondPart">
+                <h3>Keeper-App</h3>
+                <div class="lineDiv"></div>
+                <p>This website is used to keep notes. Since it is connected with the database your notes will remain there always. It is made by using the react framework, which takes it to higher levl.</p>
+                <a href="">Link to the website</a>
+            </div>
+        </div>
+        <div class="project " id="projectTwo" data-aos="fade-up">
+            <div class="firstPart"><a href=""><img src="images/textUtils.png" alt=""></a></div>
+            <div class="secondPart">
+                <h3>Text-Utils</h3>
+                <div class="lineDiv"></div>
+                <p>This website is provides different options which you can try on the text which you want to analyze. It has many features like dark mode, copying text, removing extra spaces from the text and many more... It is made by using the react framework, which takes it to another levl.</p>
+                <a href="">Link to the website</a>
+            </div>
+        </div>
+        <div class="project" id="projectThree   " data-aos="fade-up">
+            <div class="firstPart"><a href=""><img src="images/blogWebsite.png" alt=""></a></div>
+            <div class="secondPart">
+                <h3>Blog-Website</h3>
+                <div class="lineDiv"></div>
+                <p>This website helps you to keep your blog post. You can create your new blog post (just enter the route /compose to compose your own blog) and post on the homepage. It also automatically creates the webpage for your particular blog. Since it is also connected with the database your blogs will remain there always.</p>
+                <a href="">Link to the website</a>
+            </div>
+        </div>
+    </div>
+    <div class="navBarComponent">
+        <%- include("partials/navbar"); -%> 
+    </div>
+ 
+</div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset:50,
+      duration:300
+  });
+</script>
+
+
+
+<script src="js/work.js"></script>
+</body>
+</html>
