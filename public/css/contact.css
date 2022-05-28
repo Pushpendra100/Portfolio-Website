@@ -1,3 +1,21 @@
+::-webkit-scrollbar{
+    width: 0.9rem;
+    }
+    /* ::-webkit-scrollbar-track{
+    background:  #515151;
+    } */
+    ::-webkit-scrollbar-thumb {
+        background-color: #818B99;
+        border: 0.2rem solid transparent;
+        /* border-radius: 1vw; */
+        background-clip: content-box;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: #606770;
+    }
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,16 +35,28 @@ body{
 }
 .contactContainer{
     color: #b9ccda;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+    animation: slideDown 300ms ease-in-out;
+}
+@keyframes slideDown {
+    0%{
+        transform: translateY(-3rem);
+    }
+    100%{
+
+    }
+    
 }
 .contactContainer h2{
+    letter-spacing: 0.13rem;
  font-size: 2.5rem;
+ color: rgb(34, 129, 218);
 }
 .contactContainer form{
     margin-top: 3rem;
@@ -62,29 +92,63 @@ input[type=email]{
     margin-bottom: 1rem;
 }
 .btn{
+    font-family: 'Play', sans-serif;
     font-size: 1rem;
     padding: 0.5rem 2rem;
-    background-color: aqua;
+    background-color:   rgb(34, 129, 218);
     cursor: pointer;
+    border: 0.15rem solid rgba(0, 0, 0, 0.7);
+    border-radius: 0.2rem;
+    letter-spacing: 0.13rem;
+color: white;
+}
+.btn:hover{
+    background-color:   rgb(31, 119, 201);
 }
 .icons{
-    width: 100%;
-    margin-top: 2rem;
+
+    width: 70%;
+    padding: 0 4rem;
+    margin-top: 5rem;
     display: flex;
 align-items: center;
-justify-content: center;
-height: 4rem;
-font-size: 3rem;
+justify-content: space-between;
+height: 2rem;
+font-size: 2.4rem;
 /* background-color: red; */
 
 }
 .icons a{
     text-decoration: none;
-    margin-right: 4rem;
-    color: rgb(3, 108, 161);
+    /* margin-right: 4rem; */
+    color: #b9ccda;
     font-style: normal;
     /* background-color: red; */
 }
 .icons a:hover{
-transform: scale(110%);
+    animation: pop 100ms ease-in-out forwards;
+}
+@keyframes pop{
+    0%{
+
+    }90%{
+        transform: scale(115%);
+    }100%{
+        transform: scale(110%);
+    }
+}
+.icons a:nth-child(1):hover{
+    background: linear-gradient(135deg,#458eff,#fb3958);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.icons a:nth-child(2):hover{
+    color: #4267B2;
+}
+.icons a:nth-child(3):hover{
+    color: #00acee;
+}
+.icons a:nth-child(4):hover{
+    color: #0077b5;
 }
