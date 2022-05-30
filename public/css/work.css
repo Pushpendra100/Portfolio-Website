@@ -72,7 +72,7 @@ body{
     justify-content: center;
     /* background-color: red; */
     height: 100vh;
-    width: 10rem;
+    width: 8rem;
 }
 .lbContainer {
     display: flex;
@@ -93,7 +93,7 @@ body{
     align-items: center ;
     /* background-color: blue; */
     height: 100vh;
-    width: 8rem;
+    width: 10rem;
 
 }
 .midContainer{

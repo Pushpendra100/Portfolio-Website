@@ -1,0 +1,25 @@
+
+.navList {
+    width: 88%;
+}
+.tabs{
+font-size:0.8rem ;
+}
+ .navList  a img{
+    width: 1.2rem;
+}
+.long{
+    padding: 4.8rem 1rem;
+    font-size: 2.1rem;
+}
+.line{    
+    height: 0.15rem;
+    width: 1.5rem;
+}
+.active{
+width: 2rem;
+}
+.long{
+    -webkit-text-stroke: 1px rgb(34, 129, 218);
+
+}

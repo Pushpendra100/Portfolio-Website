@@ -1,0 +1,12 @@
+.contactContainer h2{
+    letter-spacing: 0.12rem;
+ font-size: 2.4rem;
+}
+.contactContainer form{
+    margin-top: 3rem;
+width: 100%;
+/* background-color: red; */
+}
+.icons{
+    padding: 0 2rem;
+}

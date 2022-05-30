@@ -1,0 +1,33 @@
+.right{
+    height: 4rem;
+}
+.navList {
+    width: 88%;
+}
+.headline{
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+margin-top: -10rem;
+margin-left: -10rem;
+    /* background-color: red;    */
+}
+.headline h1{
+    font-size: 2rem;
+}
+#named{
+    margin-top: 1rem;
+}
+#named span{
+    font-size: 0.5rem;
+
+}
+.tabs{
+font-size:0.8rem ;
+}
+ .navList  a img{
+    width: 1.2rem;
+}

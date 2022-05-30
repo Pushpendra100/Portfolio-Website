@@ -1,0 +1,36 @@
+
+.navList {
+    width: 88%;
+}
+.tabs{
+font-size:0.8rem ;
+}
+ .navList  a img{
+    width: 1.2rem;
+}
+.midContainer{
+    padding: 0rem 1rem;
+}
+.secondPart{
+    padding: 0 0 1rem 0;
+
+}
+.secondPart h3{
+    font-size: 1.5rem;
+}
+.lineDiv{
+    height: 0.09rem;
+}
+.secondPart p{
+    font-size: 0.9rem;
+}
+.secondPart a{
+    font-size: 0.9rem;
+}
+.line{    
+    height: 0.15rem;
+    width: 1.5rem;
+}
+.active{
+width: 2rem;
+}

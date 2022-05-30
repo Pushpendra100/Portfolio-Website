@@ -1,0 +1,11 @@
+.contactContainer{
+    padding: 2rem 1rem;
+}
+.contactContainer h2{
+ font-size: 1.95rem;
+}
+.icons{
+    padding: 0 1rem;
+    margin-top: 3rem;
+    font-size: 1.9rem;
+}

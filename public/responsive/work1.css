@@ -1,0 +1,87 @@
+
+
+
+.work{
+    flex-direction: column-reverse;
+}
+.navBarComponent{
+    position: sticky;
+    right: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* background-color: blue; */
+    height: 4rem;
+    width: 100vw;
+}
+#nav{
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 100%;
+}
+.navList {
+    justify-content: space-between;
+    flex-direction: row;
+    /* background-color: red; */
+    height: 4rem;
+    width: 80%;
+}
+#img1{
+    margin-bottom: 0;
+}
+#img2{
+    margin-top: 0;
+}
+.tabs{
+    transform: rotate(0);
+}
+
+
+
+
+
+.leftBar{
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/* background-color: red; */
+height: 5rem;
+width: 100vw;
+}
+.lbContainer {
+    display: flex;
+    align-items:center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    /* background-color: rgb(0, 8, 255); */
+    height: 2rem;
+    width: 4rem;
+    transform: rotate(90deg);
+}
+.line{    
+    height: 0.15rem;
+    width: 2rem;
+}
+.active{
+width: 2.7rem;
+background: #fff200;
+margin: 0.3rem 0;
+}
+.midContainer{
+    padding: 0rem 1.3rem;
+}
+.secondPart{
+    padding: 0 0 1rem 0;
+
+}
+.project{
+    flex-direction: column-reverse;
+    height: 100% ;
+}
+.project{
+    margin-bottom: 1.5rem;
+}
+

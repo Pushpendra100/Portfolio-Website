@@ -94,7 +94,7 @@ align-items: center;
 justify-content: center;
 /* background-color: red; */
 height: 100vh;
-width: 10rem;
+width: 8rem;
 }
 .lbContainer {
 display: flex;
@@ -143,7 +143,8 @@ width: 8rem;
     align-items: center ;
     /* background-color: blue; */
     height: 100vh;
-    width: 8rem;
+    width: 10rem;
+
 }
 .long span:hover{
 animation: glowing 50ms ease-in-out forwards;

@@ -1,0 +1,15 @@
+
+.lbContainer{
+    width: 8rem;
+}
+.midContainer{
+    padding: 2rem 1.3rem;
+}
+.project{
+    flex-direction: column-reverse;
+    height: 100% ;
+}
+.secondPart{
+    padding: 0 0 1rem 0;
+
+}
