@@ -28,17 +28,17 @@ img2.addEventListener("mouseover",()=>{
 
 setInterval(() => {
     let scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    if(scrollTop < 300 ){
+    if(scrollTop < 180 ){
         line1.classList.add("active");
      line2.classList.remove("active");
      line3.classList.remove("active");
     }
-    else if(300<=scrollTop && scrollTop<840){
+    else if(180<=scrollTop && scrollTop<580){
         line1.classList.remove("active");
      line2.classList.add("active");
      line3.classList.remove("active");
     }
-    else if(840 <=scrollTop  && scrollTop<=1350){
+    else if(580 <=scrollTop  && scrollTop<=1350){
         line1.classList.remove("active");
      line2.classList.remove("active");
      line3.classList.add("active");

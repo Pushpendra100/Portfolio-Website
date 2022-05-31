@@ -1,5 +1,6 @@
 const heading = document.getElementById("heading")
 const named = document.getElementById("named");
+const emailDiv = document.getElementById("emailDiv")
 
 window.addEventListener('mousemove', (event)=>{
     // console.log("pageX: ",event.pageX, 

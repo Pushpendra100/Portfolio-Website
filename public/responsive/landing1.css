@@ -3,10 +3,11 @@ body{
     --load-time:300ms;
     background-image: url("/icons/bg.svg");
     background-color:#303940;
-    background-size: 130%;
+    /* background-color:red; */
+    background-size: 240%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 175% 70%;
+    background-position: 12% 0%;
     animation: bg-load var(--load-time) ease-in-out ;
 }
 .landingPage{

@@ -1,3 +1,18 @@
+body{
+    --load-time:300ms;
+    background-image: url("/icons/bg.svg");
+    background-color:#303940;
+    /* background-color:red; */
+    background-size: 260%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 22% 10%;
+    animation: bg-load var(--load-time) ease-in-out ;
+}
+
+
+
+
 .right{
     height: 4rem;
 }
